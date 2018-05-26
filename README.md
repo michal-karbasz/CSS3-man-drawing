@@ -10,4 +10,4 @@ There are some simple eye, mouth animations but more can be added if necessary.
 
 
 Link to the project:
-https://michal-karbasz.github.io/Young-man-CSS3-drawing/
+https://michal-karbasz.github.io/CSS3-man-drawing/
