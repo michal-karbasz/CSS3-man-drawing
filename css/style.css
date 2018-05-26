@@ -1,56 +1,11 @@
-/* head start */
-
-/* 1. head base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* head start */
 
-body {
-    background-color: #D3D347
-}
-
-.background {
-    width: 1300px;
-    height: 700px;
-    transform:rotate(60deg);
-    background: white;
-    border: 1px solid #cda34f;
-    z-index: -1;
-    position: relative;
-    /* left: 100px; */
-    top: -200px;
-    float: left
-}
-
-.background::before {
-    content: '';
-    width: 200px;
-    height: 700px;
-    background: #636b46;
-    /* border: 1px solid black; */
-    z-index: -1;
-    position: relative;
-    bottom: 0;
-    left:0;
-    z-index: 1;
-    float: left
-}
-
-.background2 {
-        width: 1300px;
-        height: 700px;
-        background: #636b46;
-        border: 1px dashed #cda34f;
-        z-index: -2;
-        position: relative;
-        top: -900px;
-        left:0;
-        transform: rotate(-60deg);       
-        float: left
-
-}
+/* 1. head base */
 
 .container {
     position: relative;
@@ -59,15 +14,7 @@ body {
     margin-top: 15%;
     width: 500px;
     height: 700px;
-    /* border: 1px dashed #636b46; */
-    border-radius: 50%;
     z-index: 1;
-    /* animation: css 1s 1 normal forwards; */
-}
-
-@keyframes css {
-    0% {transform:scale(1)}
-    100% {transform:scale(1.5)}
 }
 
 .face-base {
@@ -1117,7 +1064,7 @@ body {
 /* TORSO START */
 
 .torso-left {
-    border-bottom: 100px solid #373f27;
+    border-bottom: 100px solid #333D51;
     border-left: 0 solid transparent;
     border-right: 55px solid transparent;
     width: 150px;
@@ -1127,12 +1074,11 @@ body {
     transform: translate(-50%, -50%);
     transform: rotate(-90deg);
     z-index: -2;
-    animation: shoulder2 6s infinite alternate;
 }
 /* arm */
 .torso-left::after {
     content:'';
-    border-bottom: 40px solid #373f27;
+    border-bottom: 40px solid #333D51;
     border-left: 0 solid transparent;
     border-right: 25px solid transparent;
     border-top-right-radius: 50%;
@@ -1142,21 +1088,10 @@ body {
     bottom: -16px;
     left: 0;
     z-index: -3;
-    animation: shoulder 6s infinite alternate;
-}
-
-@keyframes shoulder2 {
-    0% { top:47%}
-    100% { top: 46.5%}
-}
-
-@keyframes shoulder{
-    0% { width:70px}
-    100% { width: 71px}
 }
 
 .torso-right {
-    border-bottom: 100px solid #373f27;
+    border-bottom: 100px solid #333D51;
     border-right: 0 solid transparent;
     border-left: 55px solid transparent;
     width: 150px;
@@ -1166,12 +1101,11 @@ body {
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
     z-index: -2;
-    animation: shoulder2 6s infinite alternate;
 }
 /* arm */
 .torso-right::after {
     content:'';
-    border-bottom: 40px solid #373f27;
+    border-bottom: 40px solid #333D51;
     border-left: 0 solid transparent;
     border-right: 25px solid transparent;
     border-top-left-radius: 50%;
@@ -1181,7 +1115,6 @@ body {
     bottom: -16px;
     right: 0;
     z-index: -3;
-    animation: shoulder 6s infinite alternate;
 }
 /* buttons */
 .torso-left::before {
@@ -1227,7 +1160,6 @@ body {
     height: 123px;
     border-right: 1px solid grey;
     border-left: 1px solid grey;
-    /* border-top: 1px solid grey; */
     position: absolute;
     top: 47.2%;
     left: 49%;
@@ -1249,7 +1181,6 @@ body {
     border-top: 20px solid white;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    /* outline: 1px solid red; */
     width: 60px;
     position:absolute;
     top: 44%;
@@ -1273,7 +1204,6 @@ body {
     border-top: 20px solid white;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    /* outline: 1px solid red; */
     width: 60px;
     position:absolute;
     top: 44%;
