@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 /* head start */
-
 /* 1. head base */
 
 .container {
-    position: relative;
-    margin: auto;
-    display: block;
-    margin-top: 15%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50% ,0);
+    bottom: -250px;
     width: 500px;
     height: 700px;
     z-index: 1;
